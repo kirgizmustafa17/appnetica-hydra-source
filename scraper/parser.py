@@ -1,10 +1,11 @@
 """Parser module for Appnetica SvelteKit SSR JSON data."""
 
 from __future__ import annotations
+import re
 from typing import Any, Dict, List, Optional
 
 
-def _normalize_iso_date(date_str: str) -> str:
+def normalize_iso_date(date_str: str) -> str:
     """Normalize date strings like '2026-10-12 16:47:07.965Z' to ISO 8601 '2026-10-12T16:47:07.965Z'."""
     if not date_str:
         return ""
@@ -12,6 +13,34 @@ def _normalize_iso_date(date_str: str) -> str:
     if " " in date_str and "T" not in date_str:
         date_str = date_str.replace(" ", "T", 1)
     return date_str
+
+
+def normalize_file_size(size_str: str) -> str:
+    """
+    Normalize file size strings, converting Russian Cyrillic units (Гб, Мб, etc.)
+    and comma decimal separators to standard English format (e.g., '53,43 Гб' -> '53.43 GB').
+    """
+    if not size_str or size_str == "Unknown":
+        return "Unknown"
+
+    s = str(size_str).strip()
+
+    # Replace comma decimal separator with dot: 53,43 -> 53.43
+    s = re.sub(r"(\d+),(\d+)", r"\1.\2", s)
+
+    # Russian Cyrillic unit replacements
+    # TB: Тб, ТБ, тб
+    s = re.sub(r"(?i)\b[тt][бb]\b|[тt][бb]", "TB", s)
+    # GB: Гб, ГБ, гб
+    s = re.sub(r"(?i)\b[гg][бb]\b|[гg][бb]", "GB", s)
+    # MB: Мб, МБ, мб, ЬИ, ьи (JCUKEN Russian layout typo for mb)
+    s = re.sub(r"(?i)\b[мm][бb]\b|[мm][бb]|\b[ьm][иb]\b|[ьm][иb]", "MB", s)
+    # KB: Кб, КБ, кб
+    s = re.sub(r"(?i)\b[кk][бb]\b|[кk][бb]", "KB", s)
+
+    # Clean up spacing: ensure space between number and unit
+    s = re.sub(r"(\d+(?:\.\d+)?)\s*([A-Za-z]+)", r"\1 \2", s)
+    return s.strip()
 
 
 def _resolve_val(val: Any, data_pool: List[Any]) -> Any:
@@ -83,7 +112,7 @@ def parse_appnetica_game(data: Dict[str, Any], slug: str = "") -> List[Dict[str,
 
     game_updated = str(_resolve_val(game.get("updated", ""), d))
     game_created = str(_resolve_val(game.get("created", ""), d))
-    default_date = _normalize_iso_date(game_updated or game_created)
+    default_date = normalize_iso_date(game_updated or game_created)
 
     # Locate expanded files
     expand_raw = game.get("expand")
@@ -127,8 +156,9 @@ def parse_appnetica_game(data: Dict[str, Any], slug: str = "") -> List[Dict[str,
         label = str(_resolve_val(file_obj.get("label", ""), d)).strip()
         raw_os = str(_resolve_val(file_obj.get("os", ""), d)).strip().lower()
         size = str(_resolve_val(file_obj.get("size", ""), d)).strip()
+        normalized_size = normalize_file_size(size)
         file_updated = str(_resolve_val(file_obj.get("updated", ""), d)).strip()
-        upload_date = _normalize_iso_date(file_updated) or default_date
+        upload_date = normalize_iso_date(file_updated) or default_date
         file_type = str(_resolve_val(file_obj.get("type", ""), d)).strip().lower()
         collection_id = str(_resolve_val(file_obj.get("collectionId", ""), d)).strip()
 
@@ -171,7 +201,7 @@ def parse_appnetica_game(data: Dict[str, Any], slug: str = "") -> List[Dict[str,
 
         entry: Dict[str, Any] = {
             "title": final_title,
-            "fileSize": size or "Unknown",
+            "fileSize": normalized_size or "Unknown",
             "uris": uris,
             "uploadDate": upload_date
         }

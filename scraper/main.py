@@ -116,6 +116,11 @@ async def run_scraper(
         if upgrade_torrents:
             await upgrade_cached_torrents(cache, client, concurrency=concurrency)
 
+        # Normalize all file sizes in cache (e.g., Cyrillic units to English)
+        normalized_sizes = cache.normalize_all_sizes()
+        if normalized_sizes > 0:
+            print(f"[INFO] Normalized {normalized_sizes} file size notations to English standards.")
+
         # Prune games no longer present in sitemap (only if not running a partial limit)
         if prune and limit == 0:
             all_slugs = {s for s, _ in sitemap_games}

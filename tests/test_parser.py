@@ -1,13 +1,27 @@
 """Unit tests for Appnetica parser."""
 
 import pytest
-from scraper.parser import parse_appnetica_game, _normalize_iso_date
+from scraper.parser import parse_appnetica_game, normalize_iso_date, normalize_file_size
 
 
 def test_normalize_iso_date():
-    assert _normalize_iso_date("2026-10-12 16:47:07.965Z") == "2026-10-12T16:47:07.965Z"
-    assert _normalize_iso_date("2026-10-12T16:47:07.965Z") == "2026-10-12T16:47:07.965Z"
-    assert _normalize_iso_date("") == ""
+    assert normalize_iso_date("2026-10-12 16:47:07.965Z") == "2026-10-12T16:47:07.965Z"
+    assert normalize_iso_date("") == ""
+
+
+def test_normalize_file_size():
+    # Russian Cyrillic units and comma decimal separator
+    assert normalize_file_size("53,43 Гб") == "53.43 GB"
+    assert normalize_file_size("24,66 ГБ") == "24.66 GB"
+    assert normalize_file_size("25.2 ГБ") == "25.2 GB"
+    assert normalize_file_size("600 Мб") == "600 MB"
+    assert normalize_file_size("300 МБ") == "300 MB"
+    assert normalize_file_size("10 ЬИ") == "10 MB"  # Russian layout typo
+    assert normalize_file_size("1,5 Тб") == "1.5 TB"
+    assert normalize_file_size("500 Кб") == "500 KB"
+    assert normalize_file_size("600 MB") == "600 MB"
+    assert normalize_file_size("Unknown") == "Unknown"
+    assert normalize_file_size("") == "Unknown"
 
 
 def test_parse_magical_blush():
@@ -36,7 +50,7 @@ def test_parse_magical_blush():
                         "file_link": "https://cloud.mail.ru/public/LFs1/9WTdQg8m4",
                         "label": "Mail Cloud (Setup+MD5)",
                         "os": "win",
-                        "size": "200 MB",
+                        "size": "200 Мб",
                         "updated": "2026-10-11 11:46:44.618Z"
                     }
                 ]
@@ -47,7 +61,7 @@ def test_parse_magical_blush():
     results = parse_appnetica_game(sample_data, slug="magical-blush")
     assert len(results) == 1
     assert results[0]["title"] == "Magical Blush"
-    assert results[0]["fileSize"] == "200 MB"
+    assert results[0]["fileSize"] == "200 MB"  # Cyrillic Мб normalized to MB
     assert results[0]["uris"] == ["https://cloud.mail.ru/public/LFs1/9WTdQg8m4"]
     assert results[0]["uploadDate"] == "2026-10-11T11:46:44.618Z"
 
@@ -148,7 +162,7 @@ def test_parse_fallback_redirect_url():
                         "file_direct": "",
                         "label": "Download",
                         "os": "win",
-                        "size": "1.2 GB"
+                        "size": "1,2 Гб"
                     }
                 ]
             }

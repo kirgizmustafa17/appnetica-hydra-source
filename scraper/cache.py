@@ -4,6 +4,7 @@ from __future__ import annotations
 import json
 import os
 from typing import Any, Dict, List, Optional
+from scraper.parser import normalize_file_size
 
 
 class SyncCache:
@@ -56,6 +57,10 @@ class SyncCache:
 
     def update_game(self, slug: str, lastmod: str, items: List[Dict[str, Any]]) -> None:
         """Update or insert game entries."""
+        # Ensure sizes are normalized
+        for item in items:
+            if "fileSize" in item:
+                item["fileSize"] = normalize_file_size(item["fileSize"])
         self.data["games"][slug] = {
             "lastmod": lastmod,
             "items": items
@@ -68,11 +73,26 @@ class SyncCache:
             if slug not in current_slugs:
                 del self.data["games"][slug]
 
+    def normalize_all_sizes(self) -> int:
+        """Normalize all file sizes across cached games."""
+        normalized_count = 0
+        for slug, game_info in self.data.get("games", {}).items():
+            for item in game_info.get("items", []):
+                orig_size = item.get("fileSize", "")
+                norm_size = normalize_file_size(orig_size)
+                if orig_size != norm_size:
+                    item["fileSize"] = norm_size
+                    normalized_count += 1
+        return normalized_count
+
     def all_download_items(self) -> List[Dict[str, Any]]:
         """Collect and return all download items across all games, sorted by title."""
         all_items: List[Dict[str, Any]] = []
         for slug, game_info in self.data["games"].items():
             items = game_info.get("items", [])
-            all_items.extend(items)
+            for item in items:
+                if "fileSize" in item:
+                    item["fileSize"] = normalize_file_size(item["fileSize"])
+                all_items.append(item)
         all_items.sort(key=lambda x: x.get("title", "").lower())
         return all_items
