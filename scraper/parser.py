@@ -23,7 +23,7 @@ def _resolve_val(val: Any, data_pool: List[Any]) -> Any:
 
 def parse_appnetica_game(data: Dict[str, Any], slug: str = "") -> List[Dict[str, Any]]:
     """
-    Parse Appnetica __data.json and extract Hydra-compatible download items.
+    Parse Appnetica __data.json and extract download items.
 
     Returns:
         List of dicts formatted as:
@@ -32,7 +32,8 @@ def parse_appnetica_game(data: Dict[str, Any], slug: str = "") -> List[Dict[str,
                 "title": "Game Name",
                 "fileSize": "600 MB",
                 "uris": ["https://cloud.mail.ru/..."],
-                "uploadDate": "2026-10-12T16:47:07.965Z"
+                "uploadDate": "2026-10-12T16:47:07.965Z",
+                "_torrent_url": "..." (optional internal flag)
             },
             ...
         ]
@@ -54,7 +55,6 @@ def parse_appnetica_game(data: Dict[str, Any], slug: str = "") -> List[Dict[str,
                 break
 
     if not target_data_pool:
-        # Fallback: check all nodes for any dict containing 'game'
         for node in nodes:
             if not node or not isinstance(node, dict):
                 continue
@@ -95,7 +95,6 @@ def parse_appnetica_game(data: Dict[str, Any], slug: str = "") -> List[Dict[str,
     files_list_raw = _resolve_val(files_ref, d) if files_ref is not None else None
 
     if not isinstance(files_list_raw, list):
-        # Check if direct 'files' array in game holds ids or entries
         direct_files = game.get("files")
         files_list_raw = _resolve_val(direct_files, d) if direct_files is not None else []
 
@@ -107,14 +106,14 @@ def parse_appnetica_game(data: Dict[str, Any], slug: str = "") -> List[Dict[str,
     for item in files_list_raw:
         file_obj = _resolve_val(item, d)
         if not isinstance(file_obj, dict):
-            # If it's just an id string
             if isinstance(file_obj, str) and file_obj and game_id:
                 uri = f"https://appnetica.com/file/{file_obj}?game={game_id}"
                 downloads.append({
                     "title": raw_title,
                     "fileSize": "Unknown",
                     "uris": [uri],
-                    "uploadDate": default_date
+                    "uploadDate": default_date,
+                    "_torrent_url": uri
                 })
             continue
 
@@ -130,15 +129,29 @@ def parse_appnetica_game(data: Dict[str, Any], slug: str = "") -> List[Dict[str,
         size = str(_resolve_val(file_obj.get("size", ""), d)).strip()
         file_updated = str(_resolve_val(file_obj.get("updated", ""), d)).strip()
         upload_date = _normalize_iso_date(file_updated) or default_date
+        file_type = str(_resolve_val(file_obj.get("type", ""), d)).strip().lower()
+        collection_id = str(_resolve_val(file_obj.get("collectionId", ""), d)).strip()
 
-        # Determine download URIs: prioritize direct cloud.mail.ru link
+        # Check if this item is a torrent
+        is_torrent = (file_type == "torrent") or file_direct.endswith(".torrent")
+        torrent_url = ""
+
         uris: List[str] = []
-        if file_link and file_link.startswith("http"):
+        if is_torrent:
+            if collection_id and file_id and file_direct:
+                torrent_url = f"https://pb.appnetica.com/api/files/{collection_id}/{file_id}/{file_direct}?download=true"
+            elif file_id and game_id:
+                torrent_url = f"https://appnetica.com/file/{file_id}?game={game_id}"
+            if torrent_url:
+                uris.append(torrent_url)
+        elif file_link and file_link.startswith("http"):
             uris.append(file_link)
         elif file_direct and file_direct.startswith("http"):
             uris.append(file_direct)
         elif file_id and game_id:
-            uris.append(f"https://appnetica.com/file/{file_id}?game={game_id}")
+            redirect_url = f"https://appnetica.com/file/{file_id}?game={game_id}"
+            uris.append(redirect_url)
+            torrent_url = redirect_url
 
         if not uris:
             continue
@@ -156,27 +169,32 @@ def parse_appnetica_game(data: Dict[str, Any], slug: str = "") -> List[Dict[str,
 
         final_title = f"{raw_title}{title_suffix}"
 
-        downloads.append({
+        entry: Dict[str, Any] = {
             "title": final_title,
             "fileSize": size or "Unknown",
             "uris": uris,
             "uploadDate": upload_date
-        })
+        }
+        if is_torrent and torrent_url:
+            entry["_torrent_url"] = torrent_url
 
-    # If game has no files in expand, check if there's a fallback redirect link
+        downloads.append(entry)
+
+    # Fallback if no files in expand
     if not downloads and game_id:
-        # Check files array of ids
         game_files_ids = game.get("files")
         resolved_ids = _resolve_val(game_files_ids, d)
         if isinstance(resolved_ids, list):
             for fid in resolved_ids:
                 fid_str = str(_resolve_val(fid, d))
                 if fid_str:
+                    redirect_url = f"https://appnetica.com/file/{fid_str}?game={game_id}"
                     downloads.append({
                         "title": raw_title,
                         "fileSize": "Unknown",
-                        "uris": [f"https://appnetica.com/file/{fid_str}?game={game_id}"],
-                        "uploadDate": default_date
+                        "uris": [redirect_url],
+                        "uploadDate": default_date,
+                        "_torrent_url": redirect_url
                     })
 
     return downloads
