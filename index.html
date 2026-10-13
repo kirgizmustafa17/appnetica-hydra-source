@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Appnetica Hydra Source</title>
+  <style>
+    :root {
+      --bg: #0d1117;
+      --card-bg: #161b22;
+      --border: #30363d;
+      --text: #c9d1d9;
+      --text-bright: #f0f6fc;
+      --accent: #58a6ff;
+      --accent-hover: #1f6feb;
+      --success: #238636;
+    }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      background-color: var(--bg);
+      color: var(--text);
+      margin: 0;
+      padding: 2rem 1rem;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 90vh;
+    }
+    .container {
+      background-color: var(--card-bg);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 2.5rem;
+      max-width: 650px;
+      width: 100%;
+      box-shadow: 0 8px 24px rgba(0, 0, 0, 0.4);
+    }
+    h1 {
+      color: var(--text-bright);
+      margin-top: 0;
+      font-size: 1.8rem;
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+    p {
+      line-height: 1.6;
+      color: var(--text);
+    }
+    .url-box {
+      background-color: var(--bg);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 0.75rem 1rem;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin: 1.25rem 0;
+      gap: 1rem;
+    }
+    .url-text {
+      font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace;
+      font-size: 0.95rem;
+      color: var(--accent);
+      word-break: break-all;
+    }
+    button {
+      background-color: var(--success);
+      color: #fff;
+      border: none;
+      padding: 0.6rem 1rem;
+      border-radius: 6px;
+      cursor: pointer;
+      font-weight: 600;
+      white-space: nowrap;
+      transition: background 0.2s;
+    }
+    button:hover {
+      background-color: #2ea043;
+    }
+    .instructions {
+      margin-top: 1.5rem;
+      border-top: 1px solid var(--border);
+      padding-top: 1.5rem;
+    }
+    .instructions ol {
+      padding-left: 1.25rem;
+      line-height: 1.8;
+    }
+    .badge {
+      display: inline-block;
+      padding: 0.2rem 0.6rem;
+      font-size: 0.75rem;
+      font-weight: 600;
+      border-radius: 20px;
+      background-color: #238636;
+      color: white;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Appnetica Hydra Source <span class="badge">Aktif</span></h1>
+    <p>Bu kaynak, <a href="https://appnetica.com" target="_blank" style="color: var(--accent);">Appnetica</a> üzerindeki oyunları ve doğrudan indirme linklerini Hydra Launcher formatında sunar.</p>
+
+    <h3>Hydra Kaynak Bağlantısı:</h3>
+    <div class="url-box">
+      <span class="url-text" id="sourceUrl">https://kirgizmustafa17.github.io/appnetica-hydra-source/appnetica.json</span>
+      <button onclick="copyUrl()">Kopyala</button>
+    </div>
+
+    <div class="instructions">
+      <h3>Hydra Launcher'a Nasıl Eklenir?</h3>
+      <ol>
+        <li>Hydra Launcher uygulamasını açın.</li>
+        <li><strong>Ayarlar</strong> &rarr; <strong>İndirme Kaynakları (Download Sources)</strong> bölümüne gidin.</li>
+        <li>Yukarıdaki bağlantıyı yapıştırın ve <strong>Ekle</strong> butonuna tıklayın.</li>
+      </ol>
+    </div>
+  </div>
+
+  <script>
+    function copyUrl() {
+      const url = document.getElementById('sourceUrl').innerText;
+      navigator.clipboard.writeText(url).then(() => {
+        alert('Bağlantı panoya kopyalandı!');
+      });
+    }
+  </script>
+</body>
+</html>

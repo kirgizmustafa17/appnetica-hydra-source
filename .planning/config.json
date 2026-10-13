@@ -1,0 +1,9 @@
+{
+  "project_name": "appnetica-hydra-source",
+  "version": "1.0.0",
+  "response_language": "tr",
+  "workflow": {
+    "commit_docs": true,
+    "mode": "interactive"
+  }
+}
