@@ -15269,7 +15269,7 @@
       ]
     },
     "blade-bones": {
-      "lastmod": "2026-06-14T12:58:00.060Z",
+      "lastmod": "2024-08-01T20:28:01.676Z",
       "items": [
         {
           "title": "Blade & Bones",
@@ -46658,7 +46658,7 @@
       ]
     },
     "blade-runner": {
-      "lastmod": "2026-01-08T09:01:00.760Z",
+      "lastmod": "2026-05-03T09:49:21.517Z",
       "items": [
         {
           "title": "Blade Runner",
@@ -99201,6 +99201,19 @@
             "magnet:?xt=urn:btih:cffb0a298bfee64a787555aba2aae9c03bbf4d71&dn=Valor%20Mortis%20%282026%29&tr=udp%3A//zer0day.ch%3A1337/announce&tr=udp%3A//tracker.publictracker.xyz%3A6969/announce&tr=udp%3A//open.demonii.com%3A1337/announce&tr=udp%3A//tracker.opentrackr.org%3A1337/announce&tr=udp%3A//open.tracker.cl%3A1337/announce&tr=http%3A//tracker.opentrackr.org%3A1337/announce&tr=http%3A//open.tracker.cl%3A1337/announce&tr=udp%3A//open.stealth.si%3A80/announce&tr=udp%3A//tracker2.dler.org%3A80/announce&tr=udp%3A//tracker.wildkat.net%3A6969/announce&tr=udp%3A//tracker.torrent.eu.org%3A451/announce&tr=udp%3A//tracker.qu.ax%3A6969/announce&tr=udp%3A//tracker.peerfect.org%3A6969/announce&tr=udp%3A//tracker.opentrackr.com%3A6969/announce&tr=udp%3A//tracker.ilibr.org%3A6969/announce&tr=udp%3A//tracker.gmi.gd%3A6969/announce&tr=udp%3A//tracker.ducks.party%3A1984/announce&tr=udp%3A//tracker.dler.org%3A6969/announce&tr=udp%3A//tracker.corpscorp.online%3A80/announce&tr=udp%3A//tracker.bittor.pw%3A1337/announce&tr=udp%3A//tracker.auctor.tv%3A6969/announce&tr=udp%3A//tracker.0x7c0.com%3A6969/announce&tr=udp%3A//tracker-udp.gbitt.info%3A80/announce&tr=udp%3A//tr4ck3r.duckdns.org%3A6969/announce&tr=udp%3A//torrentclub.online%3A54123/announce"
           ],
           "uploadDate": "2026-10-13T18:18:11.934Z"
+        }
+      ]
+    },
+    "total-war-shogun-2-complete-edition-steam": {
+      "lastmod": "2026-10-14T08:03:07.972Z",
+      "items": [
+        {
+          "title": "Total War: SHOGUN 2 - Complete Edition",
+          "fileSize": "53.75 GB",
+          "uris": [
+            "magnet:?xt=urn:btih:8610aae784d818d60679c51bac1c4749662ddcae&dn=Total%20War%20SHOGUN%202%20Complete%20Edition%20%282026%29&tr=udp%3A//zer0day.ch%3A1337/announce&tr=udp%3A//tracker.publictracker.xyz%3A6969/announce&tr=udp%3A//open.demonii.com%3A1337/announce&tr=udp%3A//tracker.opentrackr.org%3A1337/announce&tr=udp%3A//open.tracker.cl%3A1337/announce&tr=http%3A//tracker.opentrackr.org%3A1337/announce&tr=http%3A//open.tracker.cl%3A1337/announce&tr=udp%3A//open.stealth.si%3A80/announce&tr=udp%3A//tracker2.dler.org%3A80/announce&tr=udp%3A//tracker.wildkat.net%3A6969/announce&tr=udp%3A//tracker.torrent.eu.org%3A451/announce&tr=udp%3A//tracker.qu.ax%3A6969/announce&tr=udp%3A//tracker.peerfect.org%3A6969/announce&tr=udp%3A//tracker.opentrackr.com%3A6969/announce&tr=udp%3A//tracker.ilibr.org%3A6969/announce&tr=udp%3A//tracker.gmi.gd%3A6969/announce&tr=udp%3A//tracker.ducks.party%3A1984/announce&tr=udp%3A//tracker.dler.org%3A6969/announce&tr=udp%3A//tracker.corpscorp.online%3A80/announce&tr=udp%3A//tracker.bittor.pw%3A1337/announce&tr=udp%3A//tracker.auctor.tv%3A6969/announce&tr=udp%3A//tracker.0x7c0.com%3A6969/announce&tr=udp%3A//tracker-udp.gbitt.info%3A80/announce&tr=udp%3A//tr4ck3r.duckdns.org%3A6969/announce&tr=udp%3A//torrentclub.online%3A54123/announce"
+          ],
+          "uploadDate": "2026-10-14T08:03:02.792Z"
         }
       ]
     }
