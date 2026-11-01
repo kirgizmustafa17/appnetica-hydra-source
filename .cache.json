@@ -202,7 +202,7 @@
       ]
     },
     "hope-01": {
-      "lastmod": "2026-10-29T19:42:54.359Z",
+      "lastmod": "2026-11-01T08:07:26.810Z",
       "items": []
     },
     "marine-park-empire": {
@@ -1787,7 +1787,7 @@
       ]
     },
     "the-colonists": {
-      "lastmod": "2026-10-04T06:49:22.312Z",
+      "lastmod": "2026-11-01T08:33:17.706Z",
       "items": [
         {
           "title": "The Colonists",
@@ -1795,7 +1795,7 @@
           "uris": [
             "https://cloud.mail.ru/public/yJLT/NMrHoJkYy"
           ],
-          "uploadDate": "2026-10-04T06:49:03.396Z"
+          "uploadDate": "2026-11-01T08:32:59.646Z"
         },
         {
           "title": "The Colonists [Mac]",
@@ -1803,7 +1803,7 @@
           "uris": [
             "https://cloud.mail.ru/public/b9s4/1TaMAK9s8"
           ],
-          "uploadDate": "2026-10-04T06:49:03.397Z"
+          "uploadDate": "2026-11-01T08:32:59.646Z"
         },
         {
           "title": "The Colonists [Linux]",
@@ -1811,7 +1811,7 @@
           "uris": [
             "https://cloud.mail.ru/public/b9s4/1TaMAK9s8"
           ],
-          "uploadDate": "2026-10-04T06:49:03.396Z"
+          "uploadDate": "2026-11-01T08:32:59.646Z"
         }
       ]
     },
@@ -7512,7 +7512,7 @@
       ]
     },
     "masterplan-tycoon": {
-      "lastmod": "2026-08-21T11:08:46.912Z",
+      "lastmod": "2026-11-01T08:11:14.248Z",
       "items": [
         {
           "title": "Masterplan Tycoon",
@@ -7520,7 +7520,7 @@
           "uris": [
             "https://cloud.mail.ru/public/wwiL/JmSp8uWpQ"
           ],
-          "uploadDate": "2026-08-21T11:08:46.883Z"
+          "uploadDate": "2026-11-01T08:10:21.475Z"
         },
         {
           "title": "Masterplan Tycoon [Mac]",
@@ -7528,7 +7528,7 @@
           "uris": [
             "https://cloud.mail.ru/public/v2Do/6g8DDgK8H"
           ],
-          "uploadDate": "2026-08-21T11:08:46.878Z"
+          "uploadDate": "2026-11-01T08:10:21.475Z"
         },
         {
           "title": "Masterplan Tycoon [Linux]",
@@ -7536,7 +7536,7 @@
           "uris": [
             "https://cloud.mail.ru/public/v2Do/6g8DDgK8H"
           ],
-          "uploadDate": "2026-08-21T11:08:46.879Z"
+          "uploadDate": "2026-11-01T08:10:21.474Z"
         }
       ]
     },
@@ -15301,7 +15301,7 @@
       ]
     },
     "blade-bones": {
-      "lastmod": "2026-06-14T12:58:00.060Z",
+      "lastmod": "2024-08-01T20:28:01.676Z",
       "items": [
         {
           "title": "Blade & Bones",
@@ -46653,7 +46653,7 @@
       ]
     },
     "blade-runner": {
-      "lastmod": "2026-01-08T09:01:00.760Z",
+      "lastmod": "2026-05-03T09:49:21.517Z",
       "items": [
         {
           "title": "Blade Runner",
@@ -100281,7 +100281,7 @@
       ]
     },
     "the-boss-gangster-criminal-empire": {
-      "lastmod": "2026-10-31T08:43:21.037Z",
+      "lastmod": "2026-11-01T08:20:06.424Z",
       "items": [
         {
           "title": "The Boss Gangster Criminal Empire",
@@ -100289,7 +100289,7 @@
           "uris": [
             "https://cloud.mail.ru/public/vSSa/puB7QYhuk"
           ],
-          "uploadDate": "2026-10-31T08:43:03.233Z"
+          "uploadDate": "2026-11-01T08:20:03.431Z"
         }
       ]
     },
@@ -100593,6 +100593,43 @@
             "https://cloud.mail.ru/public/ebFM/nok4WD8vD"
           ],
           "uploadDate": "2026-10-30T20:03:36.268Z"
+        }
+      ]
+    },
+    "heir-of-the-dog": {
+      "lastmod": "2026-11-01T10:50:37.164Z",
+      "items": [
+        {
+          "title": "Heir of the Dog",
+          "fileSize": "700 MB",
+          "uris": [
+            "https://cloud.mail.ru/public/K6Er/izsBDaJNT"
+          ],
+          "uploadDate": "2026-11-01T08:04:39.096Z"
+        },
+        {
+          "title": "Heir of the Dog [Bonus]",
+          "fileSize": "80 MB",
+          "uris": [
+            "https://cloud.mail.ru/public/jRtX/o1uvBirV4"
+          ],
+          "uploadDate": "2026-11-01T08:04:39.096Z"
+        },
+        {
+          "title": "Heir of the Dog [Mac]",
+          "fileSize": "700 MB",
+          "uris": [
+            "https://cloud.mail.ru/public/F8AQ/hNyjj1Ege"
+          ],
+          "uploadDate": "2026-11-01T08:04:39.096Z"
+        },
+        {
+          "title": "Heir of the Dog [Linux]",
+          "fileSize": "700 MB",
+          "uris": [
+            "https://cloud.mail.ru/public/F8AQ/hNyjj1Ege"
+          ],
+          "uploadDate": "2026-11-01T08:04:39.096Z"
         }
       ]
     }
