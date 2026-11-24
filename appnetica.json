@@ -5706,6 +5706,14 @@
       "uploadDate": "2026-03-15T05:14:29.231Z"
     },
     {
+      "title": "Attack of the Mutant Penguins",
+      "fileSize": "400 MB",
+      "uris": [
+        "https://cloud.mail.ru/public/KGhN/qdPLg9JnN"
+      ],
+      "uploadDate": "2026-11-24T17:51:06.318Z"
+    },
+    {
       "title": "Attentat 1942",
       "fileSize": "2 GB",
       "uris": [
@@ -7384,6 +7392,14 @@
         "magnet:?xt=urn:btih:2b27e13dcb725904067a47cbbd5cd5c4272ee760&dn=Bellwright&tr=udp%3A//tracker.opentrackr.org%3A1337/announce&tr=udp%3A//open.tracker.cl%3A1337/announce&tr=udp%3A//open.demonii.com%3A1337/announce&tr=udp%3A//open.stealth.si%3A80/announce&tr=udp%3A//tracker.torrent.eu.org%3A451/announce&tr=udp%3A//exodus.desync.com%3A6969/announce&tr=udp%3A//tracker1.bt.moack.co.kr%3A80/announce&tr=udp%3A//tracker.theoks.net%3A6969/announce&tr=udp%3A//tracker-udp.gbitt.info%3A80/announce&tr=udp%3A//explodie.org%3A6969/announce&tr=udp%3A//tracker2.dler.org%3A80/announce&tr=udp%3A//tracker.tiny-vps.com%3A6969/announce&tr=udp%3A//tracker.ccp.ovh%3A6969/announce&tr=udp%3A//tracker.0x7c0.com%3A6969/announce"
       ],
       "uploadDate": "2026-04-12T12:32:50.533Z"
+    },
+    {
+      "title": "Below the Stone",
+      "fileSize": "300 MB",
+      "uris": [
+        "https://cloud.mail.ru/public/iHoE/V1GmAekAp"
+      ],
+      "uploadDate": "2026-11-24T09:55:42.226Z"
     },
     {
       "title": "Bendy and the Dark Revival",
@@ -23695,7 +23711,7 @@
       "uris": [
         "https://cloud.mail.ru/public/Y9Vp/9sni4Y8BV"
       ],
-      "uploadDate": "2026-10-29T19:12:25.197Z"
+      "uploadDate": "2026-11-24T14:20:20.991Z"
     },
     {
       "title": "Factorio [Bonus]",
@@ -23703,7 +23719,7 @@
       "uris": [
         "https://cloud.mail.ru/public/3dBP/ZM4eypzqE"
       ],
-      "uploadDate": "2026-10-29T19:12:25.197Z"
+      "uploadDate": "2026-11-24T14:20:20.991Z"
     },
     {
       "title": "Factorio [Linux]",
@@ -23711,7 +23727,7 @@
       "uris": [
         "https://cloud.mail.ru/public/L1Pf/mxH8VGVu5"
       ],
-      "uploadDate": "2026-10-29T19:12:25.197Z"
+      "uploadDate": "2026-11-24T14:20:20.991Z"
     },
     {
       "title": "Factorio [Mac]",
@@ -23719,7 +23735,7 @@
       "uris": [
         "https://cloud.mail.ru/public/L1Pf/mxH8VGVu5"
       ],
-      "uploadDate": "2026-10-29T19:12:25.206Z"
+      "uploadDate": "2026-11-24T14:20:20.990Z"
     },
     {
       "title": "Factory Town",
@@ -25607,7 +25623,7 @@
       "uris": [
         "https://cloud.mail.ru/public/oXCr/NCeZjFsvx"
       ],
-      "uploadDate": "2026-10-19T17:34:04.530Z"
+      "uploadDate": "2026-11-24T14:22:52.724Z"
     },
     {
       "title": "Fogpiercer [Linux]",
@@ -25615,7 +25631,7 @@
       "uris": [
         "https://cloud.mail.ru/public/gwv2/v4bmTShyc"
       ],
-      "uploadDate": "2026-10-19T17:34:04.530Z"
+      "uploadDate": "2026-11-24T14:22:52.724Z"
     },
     {
       "title": "Fogpiercer [Mac]",
@@ -25623,7 +25639,7 @@
       "uris": [
         "https://cloud.mail.ru/public/gwv2/v4bmTShyc"
       ],
-      "uploadDate": "2026-10-19T17:34:04.530Z"
+      "uploadDate": "2026-11-24T14:22:52.725Z"
     },
     {
       "title": "Follow the meaning",
@@ -26199,7 +26215,7 @@
       "uris": [
         "https://cloud.mail.ru/public/z8YM/ZYLAxXd9K"
       ],
-      "uploadDate": "2026-10-14T16:51:42.204Z"
+      "uploadDate": "2026-11-24T14:26:20.636Z"
     },
     {
       "title": "FOUNTAINS Extended Edition [Linux]",
@@ -26207,7 +26223,7 @@
       "uris": [
         "https://cloud.mail.ru/public/nbEo/h66S3d92S"
       ],
-      "uploadDate": "2026-10-14T16:51:42.204Z"
+      "uploadDate": "2026-11-24T14:26:20.636Z"
     },
     {
       "title": "FOUNTAINS Extended Edition [Mac]",
@@ -26215,7 +26231,7 @@
       "uris": [
         "https://cloud.mail.ru/public/nbEo/h66S3d92S"
       ],
-      "uploadDate": "2026-10-14T16:51:42.213Z"
+      "uploadDate": "2026-11-24T14:26:20.637Z"
     },
     {
       "title": "FoxTail (Early Access)",
@@ -28207,7 +28223,7 @@
       "uris": [
         "https://cloud.mail.ru/public/vMMQ/dgBKihT93"
       ],
-      "uploadDate": "2026-10-29T19:23:16.606Z"
+      "uploadDate": "2026-11-24T15:48:46.647Z"
     },
     {
       "title": "Going Medieval [Bonus]",
@@ -28215,7 +28231,7 @@
       "uris": [
         "https://cloud.mail.ru/public/zp3h/LMUCXnYQs"
       ],
-      "uploadDate": "2026-10-29T19:23:16.606Z"
+      "uploadDate": "2026-11-24T15:48:46.647Z"
     },
     {
       "title": "Golazo Football League",
@@ -28983,7 +28999,7 @@
       "uris": [
         "https://cloud.mail.ru/public/gPp3/s5o7Bobti"
       ],
-      "uploadDate": "2026-10-14T17:01:14.400Z"
+      "uploadDate": "2026-11-24T18:25:21.189Z"
     },
     {
       "title": "Grim Fandango Remastered",
@@ -30663,7 +30679,7 @@
       "uris": [
         "https://cloud.mail.ru/public/6VGw/Jbqp8pMmq"
       ],
-      "uploadDate": "2026-11-13T12:48:22.291Z"
+      "uploadDate": "2026-11-24T16:10:35.628Z"
     },
     {
       "title": "Heart Future Whispers",
@@ -31159,7 +31175,7 @@
       "uris": [
         "https://cloud.mail.ru/public/ebFM/nok4WD8vD"
       ],
-      "uploadDate": "2026-10-30T20:03:36.268Z"
+      "uploadDate": "2026-11-24T16:18:01.875Z"
     },
     {
       "title": "Help Will Come Tomorrow",
@@ -31535,7 +31551,7 @@
       "uris": [
         "https://cloud.mail.ru/public/8Nad/eBhc9ac6L"
       ],
-      "uploadDate": "2026-08-31T17:28:55.421Z"
+      "uploadDate": "2026-11-24T16:20:00.558Z"
     },
     {
       "title": "Heroes of Science and Fiction",
@@ -35635,19 +35651,11 @@
     },
     {
       "title": "Karate Survivor",
-      "fileSize": "500 MB",
-      "uris": [
-        "magnet:?xt=urn:btih:59add3403fbd3f2a5a640e0f1ace64b30eb4a48b&dn=karate_survivor_77860&tr=udp%3A//open.demonii.com%3A1337/announce&tr=udp%3A//open.stealth.si%3A80/announce&tr=udp%3A//tracker.torrent.eu.org%3A451/announce&tr=udp%3A//explodie.org%3A6969/announce&tr=udp%3A//exodus.desync.com%3A6969/announce&tr=https%3A//tracker.tamersunion.org%3A443/announce&tr=udp%3A//tracker.tiny-vps.com%3A6969/announce&tr=udp%3A//tracker.0x7c0.com%3A6969/announce&tr=udp%3A//tracker-udp.gbitt.info%3A80/announce&tr=udp%3A//run.publictracker.xyz%3A6969/announce&tr=udp%3A//retracker01-msk-virt.corbina.net%3A80/announce&tr=udp%3A//opentracker.io%3A6969/announce&tr=udp%3A//open.dstud.io%3A6969/announce&tr=udp%3A//moonburrow.club%3A6969/announce&tr=udp%3A//tracker2.dler.org%3A80/announce&tr=udp%3A//ryjer.com%3A6969/announce&tr=http%3A//tracker.renfei.net%3A8080/announce&tr=udp%3A//wepzone.net%3A6969/announce&tr=udp%3A//ttk2.nbaonlineservice.com%3A6969/announce&tr=udp%3A//tracker.tryhackx.org%3A6969/announce&tr=udp%3A//tracker.jamesthebard.net%3A6969/announce&tr=udp%3A//tracker.fnix.net%3A6969/announce&tr=udp%3A//tracker.filemail.com%3A6969/announce&tr=udp%3A//tracker.edkj.club%3A6969/announce&tr=udp%3A//tracker.dler.org%3A6969/announce&tr=udp%3A//tracker.deadorbit.nl%3A6969/announce&tr=udp%3A//tracker.darkness.services%3A6969/announce&tr=udp%3A//retracker.lanta.me%3A2710/announce&tr=udp%3A//public.tracker.vraphim.com%3A6969/announce&tr=udp%3A//p4p.arenabg.com%3A1337/announce&tr=udp%3A//p2p.publictracker.xyz%3A6969/announce&tr=udp%3A//odd-hd.fr%3A6969/announce&tr=udp%3A//martin-gebhardt.eu%3A25/announce&tr=udp%3A//jutone.com%3A6969/announce&tr=udp%3A//evan.im%3A6969/announce&tr=udp%3A//d40969.acod.regrucolo.ru%3A6969/announce&tr=udp%3A//bittorrent-tracker.e-n-c-r-y-p-t.net%3A1337/announce&tr=udp%3A//1c.premierzal.ru%3A6969/announce&tr=https%3A//www.peckservers.com%3A9443/announce&tr=https%3A//tracker.yemekyedim.com%3A443/announce&tr=https%3A//tracker.lilithraws.org%3A443/announce&tr=https%3A//tracker.itscraftsoftware.my.id%3A443/announce&tr=https%3A//tracker.cloudit.top%3A443/announce&tr=https%3A//tracker-zhuqiy.dgj055.icu%3A443/announce&tr=http%3A//www.peckservers.com%3A9000/announce&tr=http%3A//tracker2.dler.org%3A80/announce&tr=http%3A//tracker.qu.ax%3A6969/announce&tr=http%3A//tracker.peckservers.com%3A9000/announce&tr=http%3A//tracker.mywaifu.best%3A6969/announce&tr=http%3A//tracker.edkj.club%3A6969/announce&tr=http%3A//tracker.dler.org%3A6969/announce&tr=http%3A//tracker.bt4g.com%3A2095/announce&tr=http%3A//tracker-zhuqiy.dgj055.icu%3A80/announce&tr=http%3A//open.acgtracker.com%3A1096/announce&tr=http%3A//ch3oh.ru%3A6969/announce&tr=http%3A//bittorrent-tracker.e-n-c-r-y-p-t.net%3A1337/announce&tr=udp%3A//tracker.srv00.com%3A6969/announce&tr=udp%3A//ipv4.rer.lol%3A2710/announce&tr=udp%3A//bt.rer.lol%3A6969/announce&tr=udp%3A//bt.rer.lol%3A2710/announce&tr=https%3A//tracker.pmman.tech%3A443/announce&tr=https%3A//tracker.gcrenwp.top%3A443/announce&tr=http%3A//tracker4.itzmx.com%3A2710/announce&tr=http%3A//tracker3.itzmx.com%3A6961/announce&tr=http%3A//tracker1.itzmx.com%3A8080/announce&tr=http%3A//bvarf.tracker.sh%3A2086/announce&tr=http%3A//1337.abcvg.info%3A80/announce"
-      ],
-      "uploadDate": "2026-03-28T09:15:38.710Z"
-    },
-    {
-      "title": "Karate Survivor",
       "fileSize": "300 MB",
       "uris": [
-        "https://cloud.mail.ru/public/F79F/aXMkGSkrH"
+        "https://cloud.mail.ru/public/wyyS/Q4rB214Su"
       ],
-      "uploadDate": "2026-03-28T09:15:38.699Z"
+      "uploadDate": "2026-11-24T17:00:05.411Z"
     },
     {
       "title": "Karate Survivor [Bonus]",
@@ -35655,7 +35663,7 @@
       "uris": [
         "https://cloud.mail.ru/public/xD94/CWsfmZAAd"
       ],
-      "uploadDate": "2026-03-28T09:15:38.699Z"
+      "uploadDate": "2026-11-24T17:00:05.408Z"
     },
     {
       "title": "Karate Survivor [Mac]",
@@ -35663,7 +35671,7 @@
       "uris": [
         "https://cloud.mail.ru/public/SiwK/8aMDRk5Py"
       ],
-      "uploadDate": "2026-03-28T09:15:38.699Z"
+      "uploadDate": "2026-11-24T17:00:05.408Z"
     },
     {
       "title": "Kardboard Kings Card Shop Simulator",
@@ -36615,7 +36623,7 @@
       "uris": [
         "https://cloud.mail.ru/public/wf8W/XhAAnDNr9"
       ],
-      "uploadDate": "2026-11-13T18:24:47.075Z"
+      "uploadDate": "2026-11-24T17:03:09.261Z"
     },
     {
       "title": "Knightin Plus",
@@ -36693,9 +36701,9 @@
       "title": "Knights of Honor II Sovereign",
       "fileSize": "7 GB",
       "uris": [
-        "https://cloud.mail.ru/public/fWKm/GVHwtAFyE"
+        "https://cloud.mail.ru/public/Q4Kj/tnjEPgXW6"
       ],
-      "uploadDate": "2025-04-06T09:16:09.205Z"
+      "uploadDate": "2026-11-24T17:39:21.783Z"
     },
     {
       "title": "Knights of Honor II Sovereign [Bonus]",
@@ -36703,7 +36711,7 @@
       "uris": [
         "https://cloud.mail.ru/public/SWRf/Not7wj7d6"
       ],
-      "uploadDate": "2025-04-06T09:16:09.206Z"
+      "uploadDate": "2026-11-24T17:39:21.783Z"
     },
     {
       "title": "Knock on the Coffin Lid Complete Edition",
@@ -38927,7 +38935,7 @@
       "uris": [
         "https://cloud.mail.ru/public/wG2i/JsJ8TW2oB"
       ],
-      "uploadDate": "2026-10-10T09:30:45.902Z"
+      "uploadDate": "2026-11-24T17:44:10.984Z"
     },
     {
       "title": "Lucius",
@@ -40191,7 +40199,7 @@
       "uris": [
         "https://cloud.mail.ru/public/ovrs/AyXcNDzqK"
       ],
-      "uploadDate": "2026-11-03T19:03:55.459Z"
+      "uploadDate": "2026-11-24T18:15:08.099Z"
     },
     {
       "title": "Megaquarium [Linux]",
@@ -40199,7 +40207,7 @@
       "uris": [
         "https://cloud.mail.ru/public/aTWR/hBRJomgsJ"
       ],
-      "uploadDate": "2026-11-03T19:03:55.468Z"
+      "uploadDate": "2026-11-24T18:15:08.099Z"
     },
     {
       "title": "Megaquarium [Mac]",
@@ -40207,7 +40215,7 @@
       "uris": [
         "https://cloud.mail.ru/public/aTWR/hBRJomgsJ"
       ],
-      "uploadDate": "2026-11-03T19:03:55.466Z"
+      "uploadDate": "2026-11-24T18:15:08.099Z"
     },
     {
       "title": "Megaton Rainfall",
@@ -40303,7 +40311,7 @@
       "uris": [
         "https://cloud.mail.ru/public/v6gB/CJ854GW7t"
       ],
-      "uploadDate": "2026-11-09T16:24:15.417Z"
+      "uploadDate": "2026-11-24T18:20:52.641Z"
     },
     {
       "title": "Merchant of the Skies",
@@ -44743,7 +44751,7 @@
       "uris": [
         "https://cloud.mail.ru/public/7kw1/rfAnLdddA"
       ],
-      "uploadDate": "2026-11-05T18:42:04.839Z"
+      "uploadDate": "2026-11-24T18:46:38.320Z"
     },
     {
       "title": "Old World Complete [Mac]",
@@ -44751,7 +44759,7 @@
       "uris": [
         "https://cloud.mail.ru/public/dyQK/Fqqwe5Z6n"
       ],
-      "uploadDate": "2026-11-05T18:42:04.839Z"
+      "uploadDate": "2026-11-24T18:46:38.320Z"
     },
     {
       "title": "Olga Episode 1",
@@ -45207,7 +45215,7 @@
       "uris": [
         "https://cloud.mail.ru/public/eY7b/cNWL5wkdZ"
       ],
-      "uploadDate": "2026-10-11T11:54:34.361Z"
+      "uploadDate": "2026-11-24T18:48:45.294Z"
     },
     {
       "title": "Order Automatica Supporter Edition [Bonus]",
@@ -45215,7 +45223,7 @@
       "uris": [
         "https://cloud.mail.ru/public/bui9/fcSGA2Qbb"
       ],
-      "uploadDate": "2026-10-11T11:54:34.361Z"
+      "uploadDate": "2026-11-24T18:48:45.294Z"
     },
     {
       "title": "Order of Battle World War II",
@@ -45791,7 +45799,7 @@
       "uris": [
         "https://cloud.mail.ru/public/aqGb/rVm8EtwoJ"
       ],
-      "uploadDate": "2026-11-11T17:24:47.578Z"
+      "uploadDate": "2026-11-24T18:51:27.710Z"
     },
     {
       "title": "Owlboy Collectors Edition [Bonus]",
@@ -45799,7 +45807,7 @@
       "uris": [
         "https://cloud.mail.ru/public/V5ZX/TW7UT3pBM"
       ],
-      "uploadDate": "2026-11-11T17:24:47.579Z"
+      "uploadDate": "2026-11-24T18:51:27.710Z"
     },
     {
       "title": "Owlboy Collectors Edition [Linux]",
@@ -45807,7 +45815,7 @@
       "uris": [
         "https://cloud.mail.ru/public/Bxk7/9x5HXATRR"
       ],
-      "uploadDate": "2026-11-11T17:24:47.578Z"
+      "uploadDate": "2026-11-24T18:51:27.710Z"
     },
     {
       "title": "Owlboy Collectors Edition [Mac]",
@@ -45815,7 +45823,7 @@
       "uris": [
         "https://cloud.mail.ru/public/Bxk7/9x5HXATRR"
       ],
-      "uploadDate": "2026-11-11T17:24:47.578Z"
+      "uploadDate": "2026-11-24T18:51:27.738Z"
     },
     {
       "title": "Oxenfree",
@@ -46767,7 +46775,7 @@
       "uris": [
         "https://cloud.mail.ru/public/9TXQ/17WP1Md3Z"
       ],
-      "uploadDate": "2026-11-10T18:17:18.952Z"
+      "uploadDate": "2026-11-24T19:51:21.275Z"
     },
     {
       "title": "Permafrost Ultimate Edition (Early Access) [Bonus]",
@@ -46775,7 +46783,7 @@
       "uris": [
         "https://cloud.mail.ru/public/PCnD/x2uZmajnX"
       ],
-      "uploadDate": "2026-11-10T18:17:18.941Z"
+      "uploadDate": "2026-11-24T19:51:21.275Z"
     },
     {
       "title": "Persona 3 Reload",
@@ -47107,11 +47115,11 @@
     },
     {
       "title": "Pillars of Eternity Definitive Edition",
-      "fileSize": "17 GB",
+      "fileSize": "16 GB",
       "uris": [
         "https://cloud.mail.ru/public/AKSa/RfLfdo2Mi"
       ],
-      "uploadDate": "2026-07-08T19:08:27.334Z"
+      "uploadDate": "2026-11-24T19:57:49.307Z"
     },
     {
       "title": "Pillars of Eternity Definitive Edition [Bonus]",
@@ -47119,7 +47127,7 @@
       "uris": [
         "https://cloud.mail.ru/public/daUy/k4jcK2LSx"
       ],
-      "uploadDate": "2026-07-08T19:08:27.334Z"
+      "uploadDate": "2026-11-24T19:57:49.307Z"
     },
     {
       "title": "Pillars of Eternity Definitive Edition [Linux]",
@@ -47127,7 +47135,7 @@
       "uris": [
         "https://cloud.mail.ru/public/C9kc/pwJCMUVBf"
       ],
-      "uploadDate": "2026-07-08T19:08:27.335Z"
+      "uploadDate": "2026-11-24T19:57:49.307Z"
     },
     {
       "title": "Pillars of Eternity Definitive Edition [Mac]",
@@ -47135,23 +47143,15 @@
       "uris": [
         "https://cloud.mail.ru/public/C9kc/pwJCMUVBf"
       ],
-      "uploadDate": "2026-07-08T19:08:27.335Z"
+      "uploadDate": "2026-11-24T19:57:49.307Z"
     },
     {
       "title": "Pillars of Eternity II Deadfire Obsidian Edition",
-      "fileSize": "1 GB",
+      "fileSize": "23 GB",
       "uris": [
-        "https://cloud.mail.ru/public/D5pM/a2cfnvbyB"
+        "https://cloud.mail.ru/public/Axv4/parfNMKED"
       ],
-      "uploadDate": "2026-05-30T12:21:06.599Z"
-    },
-    {
-      "title": "Pillars of Eternity II Deadfire Obsidian Edition",
-      "fileSize": "26 GB",
-      "uris": [
-        "https://cloud.mail.ru/public/TU4D/toigZk5FJ"
-      ],
-      "uploadDate": "2026-05-30T12:21:06.603Z"
+      "uploadDate": "2026-11-24T20:07:10.810Z"
     },
     {
       "title": "Pillars of Eternity II Deadfire Obsidian Edition [Bonus]",
@@ -47159,7 +47159,7 @@
       "uris": [
         "https://cloud.mail.ru/public/iDyG/qyDtjxa3C"
       ],
-      "uploadDate": "2026-05-30T12:21:06.609Z"
+      "uploadDate": "2026-11-24T20:07:10.809Z"
     },
     {
       "title": "Pillars of Eternity II Deadfire Obsidian Edition [Linux]",
@@ -47167,7 +47167,7 @@
       "uris": [
         "https://cloud.mail.ru/public/sMqd/AGvTgTvhD"
       ],
-      "uploadDate": "2026-05-30T12:21:06.602Z"
+      "uploadDate": "2026-11-24T20:07:10.810Z"
     },
     {
       "title": "Pillars of Eternity II Deadfire Obsidian Edition [Mac]",
@@ -47175,7 +47175,7 @@
       "uris": [
         "https://cloud.mail.ru/public/sMqd/AGvTgTvhD"
       ],
-      "uploadDate": "2026-05-30T12:21:06.605Z"
+      "uploadDate": "2026-11-24T20:07:10.810Z"
     },
     {
       "title": "Pilot Brothers",
@@ -48279,7 +48279,7 @@
       "uris": [
         "https://cloud.mail.ru/public/XEMU/8aru9fENt"
       ],
-      "uploadDate": "2026-11-07T14:19:51.484Z"
+      "uploadDate": "2026-11-24T20:18:03.056Z"
     },
     {
       "title": "Privateer 2 The Darkening 30th Anniversary Edition [Bonus]",
@@ -48287,7 +48287,7 @@
       "uris": [
         "https://cloud.mail.ru/public/BjJk/LJZoVwLxa"
       ],
-      "uploadDate": "2026-11-07T14:19:51.484Z"
+      "uploadDate": "2026-11-24T20:18:03.055Z"
     },
     {
       "title": "Privateer 2 The Darkening Legacy Edition",
@@ -62826,6 +62826,30 @@
       "uploadDate": "2026-05-01T19:50:07.136Z"
     },
     {
+      "title": "The Adventures of Tango Rio",
+      "fileSize": "2 GB",
+      "uris": [
+        "https://cloud.mail.ru/public/jgrM/Zm42i6Jom"
+      ],
+      "uploadDate": "2026-11-24T10:00:45.221Z"
+    },
+    {
+      "title": "The Adventures of Tango Rio [Linux]",
+      "fileSize": "2 GB",
+      "uris": [
+        "https://cloud.mail.ru/public/M1xW/eokr2eQtj"
+      ],
+      "uploadDate": "2026-11-24T10:00:45.220Z"
+    },
+    {
+      "title": "The Adventures of Tango Rio [Mac]",
+      "fileSize": "2 GB",
+      "uris": [
+        "https://cloud.mail.ru/public/M1xW/eokr2eQtj"
+      ],
+      "uploadDate": "2026-11-24T10:00:45.220Z"
+    },
+    {
       "title": "The Age of Decadence",
       "fileSize": "2 GB",
       "uris": [
@@ -63456,6 +63480,14 @@
         "https://cloud.mail.ru/public/qx65/7boi4NgJ6"
       ],
       "uploadDate": "2026-05-01T19:51:49.066Z"
+    },
+    {
+      "title": "The Citadel Project (Early Access)",
+      "fileSize": "5 GB",
+      "uris": [
+        "https://cloud.mail.ru/public/2WHY/DqZKHEFDJ"
+      ],
+      "uploadDate": "2026-11-24T10:04:10.476Z"
     },
     {
       "title": "The Colonists",
@@ -71909,9 +71941,9 @@
       "title": "Valor Mortis",
       "fileSize": "43.08 GB",
       "uris": [
-        "magnet:?xt=urn:btih:7903585d72701c333c94d29b5fae79b058253ce9&dn=Valor%20Mortis%20%282026%29&tr=udp%3A//zer0day.ch%3A1337/announce&tr=udp%3A//tracker.publictracker.xyz%3A6969/announce&tr=udp%3A//open.demonii.com%3A1337/announce&tr=udp%3A//tracker.opentrackr.org%3A1337/announce&tr=udp%3A//open.tracker.cl%3A1337/announce&tr=http%3A//tracker.opentrackr.org%3A1337/announce&tr=http%3A//open.tracker.cl%3A1337/announce&tr=udp%3A//open.stealth.si%3A80/announce&tr=udp%3A//tracker2.dler.org%3A80/announce&tr=udp%3A//tracker.wildkat.net%3A6969/announce&tr=udp%3A//tracker.torrent.eu.org%3A451/announce&tr=udp%3A//tracker.qu.ax%3A6969/announce&tr=udp%3A//tracker.peerfect.org%3A6969/announce&tr=udp%3A//tracker.opentrackr.com%3A6969/announce&tr=udp%3A//tracker.ilibr.org%3A6969/announce&tr=udp%3A//tracker.gmi.gd%3A6969/announce&tr=udp%3A//tracker.ducks.party%3A1984/announce&tr=udp%3A//tracker.dler.org%3A6969/announce&tr=udp%3A//tracker.corpscorp.online%3A80/announce&tr=udp%3A//tracker.bittor.pw%3A1337/announce&tr=udp%3A//tracker.auctor.tv%3A6969/announce&tr=udp%3A//tracker.0x7c0.com%3A6969/announce&tr=udp%3A//tracker-udp.gbitt.info%3A80/announce&tr=udp%3A//tr4ck3r.duckdns.org%3A6969/announce&tr=udp%3A//torrentclub.online%3A54123/announce"
+        "magnet:?xt=urn:btih:80baad829cefee9d03690517f375f4114e9ba713&dn=Valor%20Mortis%20%282026%29&tr=udp%3A//zer0day.ch%3A1337/announce&tr=udp%3A//tracker.publictracker.xyz%3A6969/announce&tr=udp%3A//open.demonii.com%3A1337/announce&tr=udp%3A//tracker.opentrackr.org%3A1337/announce&tr=udp%3A//open.tracker.cl%3A1337/announce&tr=http%3A//tracker.opentrackr.org%3A1337/announce&tr=http%3A//open.tracker.cl%3A1337/announce&tr=udp%3A//open.stealth.si%3A80/announce&tr=udp%3A//tracker2.dler.org%3A80/announce&tr=udp%3A//tracker.wildkat.net%3A6969/announce&tr=udp%3A//tracker.torrent.eu.org%3A451/announce&tr=udp%3A//tracker.qu.ax%3A6969/announce&tr=udp%3A//tracker.peerfect.org%3A6969/announce&tr=udp%3A//tracker.opentrackr.com%3A6969/announce&tr=udp%3A//tracker.ilibr.org%3A6969/announce&tr=udp%3A//tracker.gmi.gd%3A6969/announce&tr=udp%3A//tracker.ducks.party%3A1984/announce&tr=udp%3A//tracker.dler.org%3A6969/announce&tr=udp%3A//tracker.corpscorp.online%3A80/announce&tr=udp%3A//tracker.bittor.pw%3A1337/announce&tr=udp%3A//tracker.auctor.tv%3A6969/announce&tr=udp%3A//tracker.0x7c0.com%3A6969/announce&tr=udp%3A//tracker-udp.gbitt.info%3A80/announce&tr=udp%3A//tr4ck3r.duckdns.org%3A6969/announce&tr=udp%3A//torrentclub.online%3A54123/announce"
       ],
-      "uploadDate": "2026-10-28T05:59:06.447Z"
+      "uploadDate": "2026-11-24T17:12:01.842Z"
     },
     {
       "title": "Valor of Man",
